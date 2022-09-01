@@ -14,54 +14,64 @@
     <!-- link your styles -->
     <link rel="stylesheet" href="./stylesheets/style.css" />
     <title>Where work happens | Slack</title>
+    
   </head>
 
-  <body>
+   <body>
     <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+      <img class="icon-nav" src="./images/slack-logo.png" alt="slack_logo" />
+      <img class="icon-menu" src="./images/bars-solid.png" alt="slack_logo" />
+
+      <ul class="desktop-nav">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
         <li>Your Workspaces</li>
       </ul>
     </nav>
-    <header>
+    <header class="header">
       <img src="./images/home_talking.png" alt="home_work_happening" />
-      <h1>Where Work Happens</h1>
-      <p>
-        When your team needs to kick off a project, hire a new employee, deploy
-        some code, review a sales contract, finalize next year's budget, measure
-        an A/B test, plan your next office opening, and more, Slack has you
-        covered.
-      </p>
-      <button type="button" name="button">GET STARTED</button>
-      <p>Already using Slack? <a href="#">Sign in</a></p>
+      <div class="container-header">
+        <h1>Where Work Happens</h1>
+        <p>
+          When your team needs to kick off a project, hire a new employee, deploy
+          some code, review a sales contract, finalize next year's budget, measure
+          an A/B test, plan your next office opening, and more, Slack has you
+          covered.
+        </p>
+        <button type="button" name="button">GET STARTED</button>
+        <p>Already using Slack? <a href="#">Sign in</a></p>
+      </div>
+      
     </header>
     <main>
-      <div>
+      <div class="second-div">
         <h2>You're in good company</h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
-        <img src="./images/airbnb-logo.png" alt="" />
-        <img src="./images/capital-one-logo.png" alt="" />
-        <img src="./images/harvard-logo.png" alt="" />
-        <img src="./images/los-angeles-times-logo.png" alt="" />
-        <img src="./images/oracle-logo.png" alt="" />
-        <img src="./images/ticketmaster-logo.png" alt="" />
+        <button>DIS"COVER WHY</button>
+        <div class="container-imgs">
+          <img class="img" src="./images/airbnb-logo.png" alt="" />
+          <img class="img" src="./images/capital-one-logo.png" alt="" />
+          <img class="img" src="./images/harvard-logo.png" alt="" />
+          <img class="img" src="./images/los-angeles-times-logo.png" alt="" />
+          <img class="img" src="./images/oracle-logo.png" alt="" />
+          <img class="img" src="./images/ticketmaster-logo.png" alt="" />
       </div>
-      <div>
+      </div>
+      <div class="section-three">
         <p>Try it for free</p>
         <p>Already using Slack? <a href="">Sign in</a></p>
+        <input type="email" name="Email address" placeholder="Email address">
         <button type="button" name="button">GET STARTED</button>
       </div>
     </main>
     <footer>
-      <div>
+      <div class="footer-first">
         <img src="./images/iso-slack.png" alt="" />
+        <div class="list">
         <ul>
           <li>COMPANY</li>
           <li>About Us</li>
@@ -94,22 +104,30 @@
           <li>Slack at Work</li>
           <li>Slack Fund</li>
         </ul>
+        </div>
       </div>
-      <div>
-        <ul>
+      <div class="footer-two">
+        <ul class="list-f">
           <li>Status</li>
           <li>Privacy & Terms</li>
           <li>Contact Us</li>
         </ul>
-        <div>
+        <div class="footer-last">
+          <div class="lenguage">
           <img src="./images/us-flag.png" alt="" />
           <span>English (US)</span>
           <i class="fas fa-chevron-down"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-youtube"></i>
+          </div>
+          
+          <div class="img-finaly">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
         </div>
+       
       </div>
     </footer>
-  </body>
+  </body> 
+
 </html>
